@@ -1,0 +1,56 @@
+.details-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  column-gap: 150px; 
+  row-gap: 18px;
+}
+
+
+.details-grid > div {
+  margin: 0;
+  padding: 0;
+}
+
+.details-grid > div > div {
+  margin: 0;
+  padding: 0;
+}
+
+.label,
+.value {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 20px 0 10px;
+  grid-column: span 2; 
+}
+
+
+.label {
+  font-weight: normal; 
+  font-size: 23px; 
+  color: black;
+  margin-bottom: 5px;
+}
+
+
+.value {
+  font-size: 22px; 
+  font-weight: bold; 
+  color: black;
+}
+
+
+  
